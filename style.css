@@ -1,0 +1,265 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.button {
+    padding: 11px 49px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F9F9F9;
+
+    background: #F26363;
+    box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+    border-radius: 50px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.phone {
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.phone_number {
+    font-size: 23.85px;
+    line-height: 28px;
+    margin-bottom: 3px;
+}
+
+.phone_link {
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+}
+
+.section_description {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin: auto;
+}
+
+.home {
+    min-height: 750px;
+    background: url("./img/HomeBG.jpg") no-repeat center center;
+    padding-top: 40px;
+}
+
+.home_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 114px;
+}
+
+.home_body {
+    margin: auto;
+    max-width: 991px;
+    text-align: center;
+}
+
+.home_body h1{
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 61px;
+    color: rgba(255, 255, 255, 0.86);
+
+    margin-bottom: 35px;
+}
+
+.home_body p {
+    font-size: 22px;
+    line-height: 31px;
+    color: rgba(255, 255, 255, 0.75);
+
+    margin-bottom: 88px;
+}
+
+.advantages {
+    padding: 30px 0;
+}
+
+.advantages .section_title{
+    color: #383A4C;
+    padding-bottom: 38px;
+}
+
+.advantages .section_description{
+    color: #383A4C;
+    max-width: 724px;
+}
+
+.advantages_list{
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+
+    color: #383A4C;
+
+    margin-top: 73px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages_item {
+    max-width: 570px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    margin-bottom: 61px;
+    text-align: left;
+}
+
+.advantages_item img{
+    margin-bottom: 17px;
+}
+
+.advantages_item-body {
+    padding: 0 38px;
+}
+
+.advantages_item-body h3{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 200%;
+    color: #F26363;
+    margin-bottom: 16px;
+}
+
+.advantages_item-body p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+    margin-bottom: 61px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url("./img/ContactBG.jpg") no-repeat center center;
+    padding-top: 70px;
+}
+
+.contact .section_title{
+    color: #F9F9F9;
+    margin-bottom: 17px;
+}
+
+.contact .section_description {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 53px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 76px;
+}
+
+.contact .input-group input {
+    font-size: 22px;
+    line-height: 26px;
+    color: #F9F9F9;
+    padding: 9px 25px;
+    border: 1.38235px solid #F9F9F9;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.contact .input-group input:placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.contact .input-group input:not(:last-child) {
+    margin-bottom: 21px;
+}
+
+.contact .input-group input:active, .contact .input-group input:focus {
+    outline: none;
+}
+
+.contact .button {
+    margin-bottom: 32px;
+}
+
+.contact .consent {
+    margin-bottom: 65px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.contact .consent b {
+    color: #F26363;
+    font-weight: normal;
+}
+
+.footer {
+    background-color: #0C0202;
+    padding: 45px 0;
+    color: #F9F9F9;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer_logo img{
+    margin-right: 19px;
+}
+
+.footer_logo p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.footer_author {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
