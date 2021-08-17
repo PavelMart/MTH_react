@@ -4,7 +4,7 @@ const Container = (props) => (
     </div>
 )
 
-const Logo = () => <img src="./img/logo.svg" />;
+const Logo = () => <img src="./img/Logo.svg" />;
 
 const Phone = () => (
     <div className="phone">
